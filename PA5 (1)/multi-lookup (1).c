@@ -1,7 +1,7 @@
 #include "multi-lookup.h"
 #include "util.h"
 
-/* this is a really dumb and messy way to do this... */
+/* this is a really dumb and messy way to do this new solution is much better... */
 
 void free_data(File_Stack* fs_ptr){
     pthread_mutex_destroy(&(fs_ptr->mutex_file_stack_top));    
